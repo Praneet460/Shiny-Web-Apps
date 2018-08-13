@@ -11,14 +11,19 @@ shinyUI(fluidPage(
     ),
     mainPanel(
       tags$u(tags$i(h3("Results"))),
-      h4("Square of the number:"),
+      br(),
+      
       tags$b(tags$i(h4(textOutput("text1")))),
-      h4("Cube of the number:"),
+      br(),
+      
       tags$b(tags$i(h4(textOutput("text2")))),
-      h4("Square Root of the number:"),
+      br(),
+      
       tags$b(tags$i(h4(textOutput("text3")))),
-      h4("Cube root of the number:"),
-      tags$b(tags$i(h4(textOutput("text4"))))
+      br(),
+      
+      tags$b(tags$i(h4(textOutput("text4")))),
+      br()
       
     )
   )
